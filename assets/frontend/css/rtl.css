@@ -1,0 +1,326 @@
+/* RTL Support */
+html {
+    direction:rtl;
+}
+.navbar-area .navbar-brand {
+    margin-right: 0;
+}
+.navbar-area .navbar-brand {
+    margin-right: 0;
+}
+.navbar-area .nav-right-content ul {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.navbar-area .nav-right-content ul li:last-child {
+    margin-left: 0;
+}
+.info-items li + li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.accordion-wrapper {
+    text-align: right;
+}
+.accordion-wrapper .card .card-header h5 a {
+    padding-right: 50px;
+}
+.widget.footer-widget {
+    text-align: right;
+}
+.widget_popular_posts .single-popular-post-item .thumb {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.breadcrumb-area {
+    text-align: right;
+}
+.breadcrumb-area .page-list li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.breadcrumb-area .page-list li:after {
+    left: auto;
+    right: 4px;
+}
+.widget {
+    text-align: right;
+}
+.single-blog-grid {
+    text-align: right;
+}
+.single-blog-grid .content .post-meta li:after {
+    right: auto;
+    margin-left: 0;
+    left: -10px;
+}
+.single-blog-grid .content .post-meta li:last-child{
+    margin-right: 20px;
+}
+.blog-details-page .single-post-details-item .entry-content .post-meta {
+    text-align: right;
+}
+
+
+.header-area .header-area-inner .btn-wrapper {
+    text-align: right;
+}
+  .header-area .header-right-image {
+    right: initial;
+    left: 0;
+}
+.header-inner {
+    text-align: right;
+}
+ul#pills-tab {
+    text-align: right;
+}
+table.table.table-striped {
+    text-align: right;
+}
+.dashboard-form-wrapper {
+    text-align: right;
+}
+ul.alert.alert-danger {
+    text-align: right;
+}
+ul.alert.alert-success {
+    text-align: right;
+}
+
+.header-area .header-area-inner .subtitle {
+
+    color: black ;
+    display: block;
+
+}
+.form-group.file {
+    text-align: right;
+}
+.row.justify-content-center {
+    text-align: right;
+}
+.alert.alert-warning.alert-block {
+    text-align: right;
+}
+button.close {
+    float: left;
+}
+ul#pills-tab {
+    text-align: right;
+    padding-right: 0;
+}
+.navbar-area .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
+    color: var(--main-color-one);
+}
+.topbar-area.black .topbar-inner .social-icons li a:hover {
+    color: var(--main-color-one);
+}
+i.fas.fa-money-bill.mr-2 {
+    padding-left: 50px;
+}
+span.number {
+    text-align: right;
+}
+h3.order-title {
+    text-align: right;
+}
+div#faq {
+    text-align: right;
+}
+section.blog-area {
+    text-align: right;
+}
+div#pricing {
+    text-align: right;
+}
+div#overview {
+    text-align: right;
+}
+.widgets.widgets_nav_menu {
+    text-align: right;
+}
+.widgets.widgets_popular_posts {
+    text-align: right;
+}
+.alert.alert-danger {
+    text-align: right;
+}
+.unique-content-area {
+    text-align: right;
+}
+.hard-single-item.margin-bottom-30 {
+    text-align: right;
+}
+.navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children:before {
+    position: relative;
+    right: 0;
+    top: 50%;
+    content: "";
+    font-weight: 700;
+    font-family: "fontawesome";
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in;
+    padding-right: 5px;
+}
+ul.sub-menu {
+    text-align: right;
+}
+li {
+    text-align: right;
+}
+/* @media only screen and (max-width: 991px){
+.navbar-area .nav-container .navbar-collapse .navbar-nav li {
+    display: block;
+    text-align:right;
+    line-height: 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+} */
+
+.offer-single-item {
+    text-align: right;
+}
+/* .header-area.header-sass .sass-bg-img {
+    right: unset;
+    left: 0%;
+}
+.header-area.header-brand .sass-bg-img {
+    right: unset;
+    left: 0%;
+}
+
+.header-area.header-lifestyle .sass-bg-img {
+    right: unset;
+    left: 0%;
+
+} */
+.widget .recent_post_item li.single-recent-post-item .thumb img {
+    padding-left: 10px;
+}
+i.flaticon-open {
+    padding-left: 15px;
+}
+i.flaticon-call {
+    padding-left: 15px;
+}
+i.flaticon-placeholder {
+    padding-left: 15px;
+}
+.section-title.startup.margin-bottom-55 {
+    text-align: right;
+}
+.work-single-item.margin-bottom-30 {
+    text-align: right;
+}
+.startup-bg-img.wow.animate__.animate__zoomIn.animated {
+    right: unset;
+    left: 0%;
+}
+.single-testimonial-item-06 .content {
+    text-align: right;
+
+}
+.call-to-action-inner.style-03 {
+    text-align: right;
+}
+
+.single-testimonial-item-08 .content{
+    left: 0;
+    right: initial;
+}
+
+.breadcrumb-area .icon {
+    padding: 5px 5px 5px 30px;
+}
+.breadcrumb-area .icon i{
+    margin-right: 0;
+    margin-left: 15px;
+}
+div#gdpr-cookie-message {
+    text-align: right;
+}
+.topbar-area .right-contnet ul {
+    padding-left: 15px;
+}
+.contact_info_list .single-info-item i{
+  padding-left: 15px;
+}
+
+.logo-wrapper .logo{
+  margin-left: 100px;
+}
+
+.single-contact-info .icon i{
+  margin-left: 15px;
+}
+
+.navbar-area .nav-container .navbar-collapse .navbar-nav li:first-child {
+  margin-left: 20px;
+}
+
+.single-price-plan-01 .price-body ul {
+    margin-right: 25px;
+    padding: 0;
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+/* added for rtl support by admin */
+.navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav {
+    text-align: left;
+}
+.build-your-dream-area .left-content-area,
+.testimonial-area .right-content-area .single-testimonial-quote.active,
+.single-latest-news-grid-item,
+.newsletter-area,
+.about-page-conent .right-content-area{
+    text-align: right;
+}
+.testimonial-carousel .owl-item.center.active {
+    transform: scale(1);
+}
+
+.single-service-item .icon {
+    left: auto;
+    right: -15px;
+}
+
+.single-service-item .content {
+    padding: 25px 60px 27px 30px;
+    text-align: right;
+}
+.single-price-plan-01 .price-body ul li {
+    text-align: center;
+}
+
+.call-to-action-one .right-content-area {
+    float: left;
+}
+
+.call-to-action-one,
+.single-post-details-item .content-area,
+.single-post-details-item .post-meta ,
+.team-page-content-area .left-content-area,
+.contact-page-conent-aera .title,
+.header-area.header-style-two .single-header-carosuel-two-item .header-inner,
+.header-area.header-style-three .single-header-carosuel-two-item .header-inner{
+    text-align: right;
+}
+
+.single-post-details-item .post-meta li + li {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.build-your-dream-area .left-content-area .title{
+    text-align: right;
+}
+
+.service-page-content-inner{
+    text-align: right;
+}

@@ -1,0 +1,329 @@
+.padding-40 {
+    padding: 40px 0 40px 0;
+}
+
+.wrapper-padding {
+    padding: 40px 20px 40px 20px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.min-width-250 {
+    min-width: 250px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+.note-editor .note-toolbar.panel-heading {
+    background-color: #eee;
+}
+
+.bootstrap-tagsinput .tag {
+    margin-right: 2px !important;
+    color: #444 !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    padding: 3px 10px !important;
+    border-radius: 3px !important;
+    border: 1px solid #e2e2e2 !important;
+}
+
+.bootstrap-tagsinput {
+    line-height: 32px !important;
+    display: block !important;
+}
+
+.sidebar-header {
+    background: #ffffff;
+}
+
+.iconpicker .iconpicker-item {
+    line-height: 14px;
+}
+
+.img-select.selected {
+    border: 3px solid #007bff;
+    position: relative;
+    z-index: 0;
+    box-sizing: border-box;
+}
+
+.img-select {
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px 0 #eee;
+    cursor: pointer;
+}
+
+.img-select.selected:after {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: 1;
+    color: #fff;
+    content: "\f058";
+    font-size: 30px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    line-height: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+.switch {
+    position: relative;
+    display: block;
+    width: 86px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.onff.slider:before {
+    content: "No";
+}
+.slider:before {
+    position: absolute;
+    content: "Hide";
+    height: 26px;
+    width: 50px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+input:checked + .onff.slider:before {
+    content: "Yes";
+}
+
+input:checked + .slider:before {
+    content: "Show";
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.max-height-120 {
+    max-height: 120px;
+}
+
+.max-height-150 {
+    max-height: 150px;
+}
+
+.iconpicker-popover.popover {
+    z-index: 9999;
+}
+
+.menu-left-side-content > .title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.accordion-wrapper .card {
+    margin-bottom: 20px;
+}
+
+.accordion-wrapper .card .card-header {
+    padding: 0;
+    border: none;
+    background-color: #f3f8fb;
+}
+
+.accordion-wrapper .card .card-header button:focus,
+.accordion-wrapper .card .card-header button:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+.accordion-wrapper .card .card-header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.accordion-wrapper .card .card-body .page-list-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fff;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.accordion-wrapper .card .card-body .page-list-ul li label {
+    cursor: pointer;
+}
+
+.accordion-wrapper .card .card-body .page-list-ul li {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.accordion-wrapper .card .card-body {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #f3f8fb;
+}
+
+.form-control.error {
+    border-color: red;
+}
+
+.menu-structure-wrapper .card-header {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.menu-structure-wrapper .card-header .title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 0;
+}
+
+.menu-structure-wrapper .card-body {
+    background-color: #f3f8fb;
+}
+
+.menu-structure-wrapper .card-body ol.sortable {
+    margin: 0;
+    padding-left: 0;
+}
+
+.sortable li div {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.info-text {
+    color: #777;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 10px 0;
+    display: block;
+}
+
+.form-control.nice-select.wide {
+    line-height: initial;
+}
+.nice-select.form-control.wide.has-multiple {
+    margin-bottom: 20px;
+}
+
+.available-form-field {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.available-form-field li {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.available-form-field li a {
+    text-transform: capitalize;
+}
+
+.available-form-field li span {
+    margin-right: 10px;
+    text-transform: none;
+}
+
+.available-form-field li {
+    position: relative;
+    z-index: 0;
+}
+
+.available-form-field li .remove-fields {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    color: red;
+    cursor: pointer;
+}
+
+.available-form-field.main-fields .switch {
+    width: 95px;
+}

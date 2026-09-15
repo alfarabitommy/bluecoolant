@@ -1,0 +1,28 @@
+# File Environment & Kredensial
+@core/.env
+@core/.env.backup
+@core/.env.production
+
+# Database Dumps
+*.sql
+*.sql.gz
+
+# Dependency Directories
+@core/vendor/
+@core/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel Cache & Logs
+@core/storage/framework/cache/*
+@core/storage/framework/sessions/*
+@core/storage/framework/views/*
+@core/storage/logs/*
+!@core/storage/framework/cache/.gitignore
+!@core/storage/framework/sessions/.gitignore
+!@core/storage/framework/views/.gitignore
+!@core/storage/logs/.gitignore
+
+# System Files
+.DS_Store
+Thumbs.db
