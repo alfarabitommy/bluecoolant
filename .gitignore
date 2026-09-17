@@ -26,3 +26,7 @@ yarn-error.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# MCP config & kredensial lokal
+.mcp.json
+.env
